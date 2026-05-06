@@ -1,0 +1,47 @@
+# GO
+# compiled binaries
+/backend/server
+/backend/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# test artifacts
+*.test
+*.out
+coverage.html
+coverage.out
+
+# dependency vendor (if not vendoring intentionally)
+vendor/
+
+# air live-reload temp
+tmp/
+
+# ── Next.js / Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.turbo/
+
+# ── Environment & secrets
+# Keep .env.example; ignore everything else
+.env
+.env.*
+!.env.example
+
+backend/uploads/
+# Uploads
+
+#  IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
